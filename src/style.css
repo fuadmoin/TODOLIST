@@ -28,8 +28,6 @@
   border: 1px solid wheat;
   border-left: none;
   border-right: none;
-
-  /* border-style: hidden; */
 }
 
 ::placeholder {
@@ -40,8 +38,6 @@
 
 .todo-item {
   text-decoration: none;
-
-  /* background: blue; */
   min-height: 27px;
   width: 105%;
   border-bottom: 1px solid wheat;
@@ -76,4 +72,8 @@
   top: 0;
   left: -20px;
   border-style: none;
+}
+
+h1 {
+  text-align: center;
 }
