@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _img_select_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/select.png */ \"./img/select.png\");\n/* harmony import */ var _img_delete_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/delete.png */ \"./img/delete.png\");\n/* harmony import */ var _img_refresh_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/refresh.png */ \"./img/refresh.png\");\n\n\n\n\nvar order = 0;\nvar todoItems = [{\n  text: 'wash the dishes',\n  completed: false,\n  index: order += 1\n}, {\n  text: 'complete To Do list project',\n  completed: false,\n  index: 0\n}];\nvar container = document.getElementById('container');\nvar form = document.querySelector('form');\nvar ul = document.querySelector('.todoList');\nform.innerHTML = \"\\n<label class=\\\"title\\\"\\n>Today's To Do <img class=\\\"refresh\\\" src=\".concat(_img_refresh_png__WEBPACK_IMPORTED_MODULE_3__, \" alt=\\\"refresh\\\"\\n/></label>\\n<input\\nclass=\\\"inputText\\\"\\nplaceholder=\\\"Add to your list...\\\"\\ntype=\\\"text\\\"\\n/>\\n\");\nvar btnDeleteAll = document.createElement('button');\nbtnDeleteAll.setAttribute('class', 'delete-all');\nbtnDeleteAll.textContent = 'Clear all completed';\ncontainer.append(btnDeleteAll);\nvar display = function display() {\n  todoItems.sort(function (a, b) {\n    return a.index - b.index;\n  });\n  for (var i = 0; i < todoItems.length; i += 1) {\n    var node = document.createElement('li');\n    node.setAttribute('class', 'todo-item');\n    node.setAttribute('data-key', todoItems[i].index);\n    node.innerHTML = \" \\n        <input class=\\\"checkbox\\\" id=\\\"\".concat(todoItems[i].index, \"\\\" type=\\\"checkbox\\\"/>\\n        <label for=\\\"\").concat(todoItems[i].index, \"\\\" class=\\\"option\\\"><img class=\\\"select\\\"  src=\").concat(_img_select_png__WEBPACK_IMPORTED_MODULE_1__, \" alt=\\\"\\\"/> <img class=\\\"delete\\\"  src=\").concat(_img_delete_png__WEBPACK_IMPORTED_MODULE_2__, \" alt=\\\"\\\"/></label>\\n        <span class=\\\"items\\\">\").concat(todoItems[i].text, \"</span>\\n    \\n        \");\n    ul.append(node);\n  }\n};\nwindow.onload = display();\n\n//# sourceURL=webpack://todolist/./src/index.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
@@ -107,16 +117,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://todolist/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _img_select_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/select.png */ \"./img/select.png\");\n/* harmony import */ var _img_delete_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/delete.png */ \"./img/delete.png\");\n/* harmony import */ var _img_refresh_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/refresh.png */ \"./img/refresh.png\");\n\n\n\n\n\nlet order = 0;\nconst todoItems = [\n  {\n    text: 'wash the dishes',\n    completed: false,\n    index: order += 1,\n  },\n  {\n    text: 'complete To Do list project',\n    completed: false,\n    index: 0,\n  },\n\n];\n\nconst container = document.getElementById('container');\nconst form = document.querySelector('form');\nconst ul = document.querySelector('.todoList');\nform.innerHTML = `\n<label class=\"title\"\n>Today's To Do <img class=\"refresh\" src=${_img_refresh_png__WEBPACK_IMPORTED_MODULE_3__} alt=\"refresh\"\n/></label>\n<input\nclass=\"inputText\"\nplaceholder=\"Add to your list...\"\ntype=\"text\"\n/>\n`;\nconst btnDeleteAll = document.createElement('button');\nbtnDeleteAll.setAttribute('class', 'delete-all');\nbtnDeleteAll.textContent = 'Clear all completed';\ncontainer.append(btnDeleteAll);\n\nconst display = () => {\n  todoItems.sort((a, b) => a.index - b.index);\n  for (let i = 0; i < todoItems.length; i += 1) {\n    const node = document.createElement('li');\n\n    node.setAttribute('class', 'todo-item');\n    node.setAttribute('data-key', todoItems[i].index);\n\n    node.innerHTML = ` \n        <input class=\"checkbox\" id=\"${todoItems[i].index}\" type=\"checkbox\"/>\n        <label for=\"${todoItems[i].index}\" class=\"option\"><img class=\"select\"  src=${_img_select_png__WEBPACK_IMPORTED_MODULE_1__} alt=\"\"/> <img class=\"delete\"  src=${_img_delete_png__WEBPACK_IMPORTED_MODULE_2__} alt=\"\"/></label>\n        <span class=\"items\">${todoItems[i].text}</span>\n    \n        `;\n    ul.append(node);\n  }\n};\n\nwindow.onload = display();\n\n//# sourceURL=webpack://todolist/./src/index.js?");
 
 /***/ }),
 
