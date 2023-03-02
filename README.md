@@ -15,7 +15,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -42,14 +41,8 @@ HTML, CSS, and JavaScript
 
 ### Key Features <a name="key-features"></a>
 
-- **[html styled with css and javascript]**
-- **[uses webpack]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"> </a>
-
-> Live demo will be available at the end of the project.
+- **html styled with css and javascript**
+- **uses webpack**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,9 +98,9 @@ You can deploy this project using Github-Page.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[users will be able to input tasks]**
-- [ ] **[tasks will be displayed based on their order]**
-- [ ] **[users will be able to delete tasks that are completed]**
+- [] **[users will be able to input tasks]**
+- [] **[tasks will be displayed based on their order]**
+- [] **[users will be able to delete tasks that are completed]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,4 +125,3 @@ If you like this project please consider starring it.
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<a name="readme-top"></a>
