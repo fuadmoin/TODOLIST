@@ -16,6 +16,7 @@
   float: right;
   position: relative;
   top: 3px;
+  right: -15px;
 }
 
 .inputText {
@@ -48,21 +49,33 @@
   position: relative;
 }
 
-.option {
+.delete {
+  display: none;
   float: right;
 }
 
-.delete {
+.edit {
   display: none;
+  position: relative;
+  left: -30px;
+  float: right;
 }
 
 .items {
+  display: inline-block;
   margin-left: 15px;
   top: 5px;
+  width: 340px;
 }
 
 .select {
   display: block;
+  float: right;
+}
+
+.save {
+  float: right;
+  display: none;
 }
 
 .delete-all {
@@ -74,6 +87,35 @@
   border-style: none;
 }
 
+.complete span {
+  text-decoration: line-through;
+}
+
+.complete .delete {
+  display: block;
+}
+
+.complete .select {
+  display: none;
+}
+
+.editable {
+  display: block;
+  position: relative;
+  top: 10px;
+  height: 20px;
+}
+
+.complete .editable {
+  display: none;
+}
+
+.disabled {
+  display: none;
+}
+
 h1 {
   text-align: center;
+  position: relative;
+  right: 40px;
 }
