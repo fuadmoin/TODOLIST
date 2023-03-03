@@ -5,7 +5,7 @@
   <img src="./img/logo2.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>To-do List</b></h3>
 
 </div>
 
@@ -43,6 +43,12 @@ HTML, CSS, and JavaScript
 
 - **html styled with css and javascript**
 - **uses webpack**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"> </a>
+
+> Check out the live demo for this project [here.]('https://fuadmoin.github.io/TODOLIST/dist/')
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
