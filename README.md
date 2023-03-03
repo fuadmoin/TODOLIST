@@ -35,9 +35,9 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-HTML, CSS, and JavaScript
-
 ### Tech Stack <a name="tech-stack"></a>
+
+- **HTML, CSS, and JavaScript**
 
 ### Key Features <a name="key-features"></a>
 
@@ -123,6 +123,8 @@ If you like this project please consider starring it.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank my coding partner [@Baqar](https://github.com/baqar-abbas) for helping me on this project with me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
