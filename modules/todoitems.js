@@ -2,6 +2,7 @@ import select2 from '../img/select.png';
 import delete2 from '../img/delete.png';
 import edit from '../img/edit.png';
 import save from '../img/save.png';
+import Taskcompleted from './completed.js';
 
 export default class toDoItems {
   constructor(text, completed, index) {
@@ -56,18 +57,15 @@ export default class toDoItems {
 
       checkboxes[i].addEventListener('click', (event) => {
         const parent = event.target.parentNode;
+        Taskcompleted(i);
         if (checkboxes[i].checked) {
-          todos[i].completed = true;
           parent.classList.add('complete');
           option2[i].style.display = 'none';
           option[i].style.display = 'none';
           option1[i].style.display = 'none';
-          localStorage.setItem('todoArray', JSON.stringify(todos));
         } else {
           option2[i].style.display = 'block';
-          todos[i].completed = false;
           parent.classList.remove('complete');
-          localStorage.setItem('todoArray', JSON.stringify(todos));
         }
       });
 
