@@ -31,7 +31,8 @@
 
 # 📖 To Do List <a name="about-project"></a>
 
-**To Do List** is a simple project to add tasks that we want to do and mark them as done when complete.
+**To-Do List** is a A To-do list is a simple project built to help users stay organized, productive, and motivated in their work and life. Users can create tasks. The created tasks will be saved to local storage and will be displayed. Then, users can edit and mark tasks as complete on the website. They can also delete a single task or multiple tasks at once.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,8 +42,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **html styled with css and javascript**
-- **uses webpack**
+- **HTML styled with css and javascript**
+- **Uses webpack**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,9 +105,9 @@ You can deploy this project using Github-Page.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [] **[users will be able to input tasks]**
-- [] **[tasks will be displayed based on their order]**
-- [] **[users will be able to delete tasks that are completed]**
+- [ ] **[users will be able to input tasks]**
+- [ ] **[tasks will be displayed based on their order]**
+- [ ] **[users will be able to delete tasks that are completed]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
